@@ -1,0 +1,20 @@
+[
+    {
+        "id": 6,
+        "name": "Cuong Anh Luong",
+        "phone": "honda",
+        "email": "0398994564",
+        "password": "tentoiday2003@gmail.com",
+        "vehicle_info": "1",
+        "available": false
+    },
+    {
+        "id": 7,
+        "name": "Cuong Anh Luong",
+        "phone": "0398994564",
+        "email": "tentoiday2003@gmail.com",
+        "password": "1",
+        "vehicle_info": "honda",
+        "available": false
+    }
+]

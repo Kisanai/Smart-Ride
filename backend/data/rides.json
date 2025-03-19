@@ -1,0 +1,241 @@
+[
+    {
+        "id": "57080340-8adc-47f6-bc2c-271d6a39a122",
+        "customer_id": "12",
+        "pickup": "Y\u00ean s\u1edf",
+        "dropoff": "B\u00e1i \u0111\u00ednh",
+        "fare": 28,
+        "status": "Pending",
+        "driver_id": "3ce7fe15-f669-4024-8f91-7f400154f7f5"
+    },
+    {
+        "id": 1,
+        "customer_id": 1,
+        "pickup": "Y\u00ean s\u1edf",
+        "dropoff": "B\u00e1i \u0111\u00ednh",
+        "fare": 20,
+        "status": "Pending",
+        "driver_id": 1
+    },
+    {
+        "id": 2,
+        "customer_id": 1,
+        "pickup": "Y\u00ean s\u1edf",
+        "dropoff": "B\u00e1i \u0111\u00ednh",
+        "fare": 33,
+        "status": "Pending",
+        "driver_id": 2
+    },
+    {
+        "id": 7,
+        "pickup": "Y\u00ean s\u1edf",
+        "dropoff": "B\u00e1i \u0111\u00ednh",
+        "fare": 39,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 8,
+        "pickup": "Y\u00ean s\u1edf",
+        "dropoff": "B\u00e1i \u0111\u00ednh",
+        "fare": 40,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 9,
+        "pickup": "Y\u00ean s\u1edf",
+        "dropoff": "B\u00e1i \u0111\u00ednh",
+        "customer_id": "",
+        "driver_id": null,
+        "status": "pending",
+        "fare": 50000,
+        "payment_method": "cash",
+        "pickup_coords": null,
+        "dropoff_coords": null
+    },
+    {
+        "id": 10,
+        "pickup": "Y\u00ean s\u1edf",
+        "dropoff": "B\u00e1i \u0111\u00ednh",
+        "customer_id": "",
+        "driver_id": null,
+        "status": "pending",
+        "fare": 50000,
+        "payment_method": "cash",
+        "pickup_coords": null,
+        "dropoff_coords": null
+    },
+    {
+        "id": 11,
+        "pickup": "Y\u00ean s\u1edf",
+        "dropoff": "B\u00e1i \u0111\u00ednh",
+        "customer_id": "",
+        "driver_id": null,
+        "status": "pending",
+        "fare": 50000,
+        "payment_method": "cash",
+        "pickup_coords": null,
+        "dropoff_coords": null
+    },
+    {
+        "id": 12,
+        "pickup": "Y\u00ean s\u1edf",
+        "dropoff": "B\u00e1i \u0111\u00ednh",
+        "customer_id": "",
+        "driver_id": null,
+        "status": "pending",
+        "fare": 50000,
+        "payment_method": "cash",
+        "pickup_coords": null,
+        "dropoff_coords": null
+    },
+    {
+        "id": 13,
+        "pickup": "Y\u00ean s\u1edf",
+        "dropoff": "B\u00e1i \u0111\u00ednh",
+        "customer_id": "9",
+        "driver_id": null,
+        "status": "pending",
+        "fare": 50000,
+        "payment_method": "cash",
+        "pickup_coords": null,
+        "dropoff_coords": null
+    },
+    {
+        "id": 14,
+        "pickup": "Y\u00ean s\u1edf",
+        "dropoff": "B\u00e1i \u0111\u00ednh",
+        "fare": 28,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 15,
+        "pickup": "Y\u00ean s\u1edf",
+        "dropoff": "B\u00e1i \u0111\u00ednh",
+        "fare": 39,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 16,
+        "pickup": "Y\u00ean s\u1edf",
+        "dropoff": "B\u00e1i \u0111\u00ednh",
+        "fare": 32,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 17,
+        "pickup": "H\u00e0 n\u1ed9i",
+        "dropoff": "H\u1ea3i ph\u00f2ng",
+        "fare": 21,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 18,
+        "pickup": "H\u00e0 n\u1ed9i",
+        "dropoff": "H\u1ea3i ph\u00f2ng",
+        "fare": 38,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 19,
+        "pickup": "H\u00e0 N\u1ed9i",
+        "dropoff": "H\u1ea3i ph\u00f2ng",
+        "fare": 33,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 20,
+        "pickup": "H\u00e0 N\u1ed9i",
+        "dropoff": "H\u1ea3i ph\u00f2ng",
+        "fare": 30,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 21,
+        "pickup": "H\u00e0 N\u1ed9i",
+        "dropoff": "H\u1ea3i ph\u00f2ng",
+        "fare": 44,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 22,
+        "pickup": "H\u00e0 N\u1ed9i",
+        "dropoff": "H\u1ea3i ph\u00f2ng",
+        "fare": 41,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 23,
+        "pickup": "H\u00e0 N\u1ed9i",
+        "dropoff": "H\u1ea3i Ph\u00f2ng",
+        "fare": 27,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 24,
+        "pickup": "H\u00e0 N\u1ed9i",
+        "dropoff": "H\u1ea3i Ph\u00f2ng",
+        "fare": 23,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 25,
+        "pickup": "H\u00e0 N\u1ed9i",
+        "dropoff": "H\u1ea3i Ph\u00f2ng",
+        "fare": 26,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 26,
+        "pickup": "H\u00e0 N\u1ed9i",
+        "dropoff": "H\u1ea3i Ph\u00f2ng",
+        "fare": 39,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 27,
+        "pickup": "H\u00e0 N\u1ed9i",
+        "dropoff": "H\u1ea3i Ph\u00f2ng",
+        "fare": 31,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 28,
+        "pickup": "H\u00e0 N\u1ed9i",
+        "dropoff": "H\u1ea3i ph\u00f2ng",
+        "fare": 28,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 29,
+        "pickup": "Ng\u00f5 286 Nguy\u1ec5n Xi\u1ec3n, X\u00e3 T\u00e2n Tri\u1ec1u, Huy\u1ec7n Thanh Tr\u00ec, H\u00e0 N\u1ed9i, 10135, Vi\u1ec7t Nam",
+        "dropoff": "B\u1ebfn xe Gi\u00e1p B\u00e1t, \u0110\u01b0\u1eddng Gi\u1ea3i Ph\u00f3ng, Ph\u01b0\u1eddng Gi\u00e1p B\u00e1t, Qu\u1eadn Ho\u00e0ng Mai, H\u00e0 N\u1ed9i, 11617, Vi\u1ec7t Nam",
+        "fare": 48,
+        "status": "Pending",
+        "driver_id": null
+    },
+    {
+        "id": 30,
+        "pickup": "Ng\u00f5 286 Nguy\u1ec5n Xi\u1ec3n, Eco Green City, X\u00e3 T\u00e2n Tri\u1ec1u, Huy\u1ec7n Thanh Tr\u00ec, H\u00e0 N\u1ed9i, 10135, Vi\u1ec7t Nam",
+        "dropoff": "B\u1ebfn xe Gi\u00e1p B\u00e1t, \u0110\u01b0\u1eddng Gi\u1ea3i Ph\u00f3ng, Ph\u01b0\u1eddng Gi\u00e1p B\u00e1t, Qu\u1eadn Ho\u00e0ng Mai, H\u00e0 N\u1ed9i, 11617, Vi\u1ec7t Nam",
+        "fare": 26,
+        "status": "Pending",
+        "driver_id": null
+    }
+]
