@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@import "leaflet/dist/leaflet.css";
+@import "leaflet-geosearch/dist/geosearch.css";
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.suggestions {
+  border: 1px solid #ccc;
+  background: white;
+  list-style: none;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}
+
+.suggestions li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background-color: #eee;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+.leaflet-container {
+  width: 100%;
+  height: 400px;
+  margin-top: 1rem;
+}
