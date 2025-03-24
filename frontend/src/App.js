@@ -2,10 +2,10 @@ import React from "react";
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import RegisterUser from "./pages/RegisterUser";
-import RegisterDriver from "./pages/RegisterDriver";
-import LoginUser from "./pages/LoginUser";
-import LoginDriver from "./pages/LoginDriver";
+import RegisterUser from "./components/RegisterUser";
+import RegisterDriver from "./components/RegisterDriver";
+import LoginUser from "./components/LoginUser";
+import LoginDriver from "./components/LoginDriver";
 import RideRequestForm from "./components/RideRequestForm";
 import RouteMap from "./components/RouteMap";
 

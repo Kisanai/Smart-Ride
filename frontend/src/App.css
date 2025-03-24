@@ -14,26 +14,72 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.suggestions {
-  border: 1px solid #ccc;
-  background: white;
+.suggestions-list {
   list-style: none;
+  margin: 0;
   padding: 0;
-  max-height: 150px;
+  border: 1px solid #ccc;
+  max-height: 200px;
   overflow-y: auto;
+  background: #fff;
   position: absolute;
   z-index: 1000;
   width: 100%;
 }
 
-.suggestions li {
-  padding: 5px 10px;
+.suggestions-list li {
+  padding: 8px;
   cursor: pointer;
 }
 
-.suggestions li:hover {
+.suggestions-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.ride-form {
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+}
+
+.ride-request-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.ride-request-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ride-request-form .suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.ride-request-form .suggestions li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.ride-request-form .suggestions li:hover {
   background-color: #eee;
 }
+
+.ride-info {
+  margin-top: 16px;
+  background: #f9f9f9;
+  padding: 12px;
+  border-radius: 8px;
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -63,4 +109,29 @@
   width: 100%;
   height: 400px;
   margin-top: 1rem;
+}
+.ride-info {
+  margin-top: 15px;
+  background: #f3f3f3;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.suggestions li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background-color: #eee;
 }

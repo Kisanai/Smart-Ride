@@ -118,24 +118,23 @@ def location_suggestions():
     if not query:
         return jsonify([])
 
-    url = "https://nominatim.openstreetmap.org/search"
-    params = {
-        'q': f'{query}, Việt Nam',
-        'format': 'json',
-        'addressdetails': 1,
-        'limit': 5
-    }
-    headers = {
-        'User-Agent': 'SmartRideApp/1.0 (your_email@example.com)'  # Bắt buộc để tránh bị chặn
-    }
-
     try:
-        response = requests.get(url, params=params, headers=headers, timeout=10)
+        response = requests.get(
+            "https://nominatim.openstreetmap.org/search",
+            params={
+                "q": query,
+                "format": "json",
+                "addressdetails": 1,
+                "limit": 5,
+                "countrycodes": "vn"
+            },
+            headers={"User-Agent": "SmartRideApp/1.0"}
+        )
         response.raise_for_status()
         return jsonify(response.json())
-    except requests.RequestException as e:
-        print(f"Lỗi proxy Nominatim: {e}")
-        return jsonify([]), 500
+    except Exception as e:
+        print(f"Error fetching location suggestions: {e}")
+        return jsonify({"error": "Failed to fetch location suggestions"}), 500
 
 if __name__ == "__main__":
     os.makedirs(DATA_DIR, exist_ok=True)
