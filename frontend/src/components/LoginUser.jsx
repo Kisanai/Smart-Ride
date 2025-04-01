@@ -23,8 +23,8 @@ function LoginCustomer() {
 
       navigate("/ride/request");
     } catch (err) {
-      console.error(err);
-      alert("❌ Đăng nhập thất bại!");
+      console.error("Login error:", err.response?.data?.message || err.message);
+      alert(err.response?.data?.message || "❌ Đăng nhập thất bại!");
     }
   };
 

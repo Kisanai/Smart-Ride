@@ -24,7 +24,11 @@ function RegisterForm() {
       const res = await axios.post(url, payload);
       alert(res.data.message + "\nID: " + res.data.id);
     } catch (err) {
-      alert("Lỗi khi đăng ký!");
+      if (err.response && err.response.data && err.response.data.message) {
+        alert("❌ " + err.response.data.message);
+      } else {
+        alert("❌ Lỗi khi đăng ký!");
+      }
     }
   };
 

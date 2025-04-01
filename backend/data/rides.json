@@ -1,241 +1,1170 @@
 [
     {
-        "id": "57080340-8adc-47f6-bc2c-271d6a39a122",
-        "customer_id": "12",
-        "pickup": "Y\u00ean s\u1edf",
-        "dropoff": "B\u00e1i \u0111\u00ednh",
-        "fare": 28,
-        "status": "Pending",
-        "driver_id": "3ce7fe15-f669-4024-8f91-7f400154f7f5"
-    },
-    {
-        "id": 1,
-        "customer_id": 1,
-        "pickup": "Y\u00ean s\u1edf",
-        "dropoff": "B\u00e1i \u0111\u00ednh",
-        "fare": 20,
-        "status": "Pending",
-        "driver_id": 1
-    },
-    {
-        "id": 2,
-        "customer_id": 1,
-        "pickup": "Y\u00ean s\u1edf",
-        "dropoff": "B\u00e1i \u0111\u00ednh",
-        "fare": 33,
-        "status": "Pending",
-        "driver_id": 2
-    },
-    {
-        "id": 7,
-        "pickup": "Y\u00ean s\u1edf",
-        "dropoff": "B\u00e1i \u0111\u00ednh",
-        "fare": 39,
-        "status": "Pending",
-        "driver_id": null
-    },
-    {
-        "id": 8,
-        "pickup": "Y\u00ean s\u1edf",
-        "dropoff": "B\u00e1i \u0111\u00ednh",
-        "fare": 40,
-        "status": "Pending",
-        "driver_id": null
-    },
-    {
-        "id": 9,
-        "pickup": "Y\u00ean s\u1edf",
-        "dropoff": "B\u00e1i \u0111\u00ednh",
-        "customer_id": "",
+        "id": 320,
+        "customer_id": 6,
+        "pickup": {
+            "lat": 20.983738884326424,
+            "lng": 105.80767993981335,
+            "address": "Ngõ 286 Nguyễn Xiển, Eco Green City, Xã Tân Triều, Huyện Thanh Trì, Thành phố Hà Nội, 10135, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.031259538843813,
+            "lng": 105.78175171229707,
+            "address": "Phố Duy Tân, Phường Mỹ Đình 2, Quận Nam Từ Liêm, Thành phố Hà Nội, 10085, Việt Nam"
+        },
+        "vehicle_type": "bike",
+        "estimated_price": 40096,
+        "estimated_distance": 8024.1,
+        "estimated_duration": 527.8,
+        "status": "completed",
         "driver_id": null,
-        "status": "pending",
-        "fare": 50000,
-        "payment_method": "cash",
-        "pickup_coords": null,
-        "dropoff_coords": null
+        "fare": 40096
     },
     {
-        "id": 10,
-        "pickup": "Y\u00ean s\u1edf",
-        "dropoff": "B\u00e1i \u0111\u00ednh",
-        "customer_id": "",
-        "driver_id": null,
-        "status": "pending",
-        "fare": 50000,
-        "payment_method": "cash",
-        "pickup_coords": null,
-        "dropoff_coords": null
+        "id": 321,
+        "customer_id": 7,
+        "pickup": {
+            "lat": 20.983738884326424,
+            "lng": 105.80767993981335,
+            "address": "Ngõ 286 Nguyễn Xiển, Eco Green City, Xã Tân Triều, Huyện Thanh Trì, Thành phố Hà Nội, 10135, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.031259538843813,
+            "lng": 105.78175171229707,
+            "address": "Phố Duy Tân, Phường Mỹ Đình 2, Quận Nam Từ Liêm, Thành phố Hà Nội, 10085, Việt Nam"
+        },
+        "vehicle_type": "bike",
+        "estimated_price": 40096,
+        "estimated_distance": 8024.1,
+        "estimated_duration": 527.8,
+        "status": "completed",
+        "driver_id": 4,
+        "fare": 40096
     },
     {
-        "id": 11,
-        "pickup": "Y\u00ean s\u1edf",
-        "dropoff": "B\u00e1i \u0111\u00ednh",
-        "customer_id": "",
-        "driver_id": null,
-        "status": "pending",
-        "fare": 50000,
-        "payment_method": "cash",
-        "pickup_coords": null,
-        "dropoff_coords": null
+        "id": 322,
+        "customer_id": 7,
+        "pickup": {
+            "lat": 20.983738884326424,
+            "lng": 105.80767993981335,
+            "address": "Ngõ 286 Nguyễn Xiển, Eco Green City, Xã Tân Triều, Huyện Thanh Trì, Thành phố Hà Nội, 10135, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.031259538843813,
+            "lng": 105.78175171229707,
+            "address": "Phố Duy Tân, Phường Mỹ Đình 2, Quận Nam Từ Liêm, Thành phố Hà Nội, 10085, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 79193,
+        "estimated_distance": 8024.1,
+        "estimated_duration": 527.8,
+        "status": "cancelled",
+        "driver_id": 2,
+        "fare": 79193
     },
     {
-        "id": 12,
-        "pickup": "Y\u00ean s\u1edf",
-        "dropoff": "B\u00e1i \u0111\u00ednh",
-        "customer_id": "",
-        "driver_id": null,
-        "status": "pending",
-        "fare": 50000,
-        "payment_method": "cash",
-        "pickup_coords": null,
-        "dropoff_coords": null
+        "id": 323,
+        "customer_id": 9,
+        "pickup": {
+            "lat": 20.983738884326424,
+            "lng": 105.80767993981335,
+            "address": "Ngõ 286 Nguyễn Xiển, Eco Green City, Xã Tân Triều, Huyện Thanh Trì, Thành phố Hà Nội, 10135, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.031259538843813,
+            "lng": 105.78175171229707,
+            "address": "Phố Duy Tân, Phường Mỹ Đình 2, Quận Nam Từ Liêm, Thành phố Hà Nội, 10085, Việt Nam"
+        },
+        "vehicle_type": "bike",
+        "estimated_price": 40096,
+        "estimated_distance": 8024.1,
+        "estimated_duration": 527.8,
+        "status": "cancelled",
+        "driver_id": 1,
+        "fare": 40096
     },
     {
-        "id": 13,
-        "pickup": "Y\u00ean s\u1edf",
-        "dropoff": "B\u00e1i \u0111\u00ednh",
-        "customer_id": "9",
-        "driver_id": null,
-        "status": "pending",
-        "fare": 50000,
-        "payment_method": "cash",
-        "pickup_coords": null,
-        "dropoff_coords": null
+        "id": 324,
+        "customer_id": 10,
+        "pickup": {
+            "lat": 20.983738884326424,
+            "lng": 105.80767993981335,
+            "address": "Ngõ 286 Nguyễn Xiển, Eco Green City, Xã Tân Triều, Huyện Thanh Trì, Thành phố Hà Nội, 10135, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.031259538843813,
+            "lng": 105.78175171229707,
+            "address": "Phố Duy Tân, Phường Mỹ Đình 2, Quận Nam Từ Liêm, Thành phố Hà Nội, 10085, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 79193,
+        "estimated_distance": 8024.1,
+        "estimated_duration": 527.8,
+        "status": "cancelled",
+        "driver_id": 2,
+        "fare": 79193
     },
     {
-        "id": 14,
-        "pickup": "Y\u00ean s\u1edf",
-        "dropoff": "B\u00e1i \u0111\u00ednh",
-        "fare": 28,
-        "status": "Pending",
-        "driver_id": null
+        "id": 325,
+        "customer_id": 11,
+        "pickup": {
+            "lat": 20.983738884326424,
+            "lng": 105.80767993981335,
+            "address": "Ngõ 286 Nguyễn Xiển, Eco Green City, Xã Tân Triều, Huyện Thanh Trì, Thành phố Hà Nội, 10135, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.031259538843813,
+            "lng": 105.78175171229707,
+            "address": "Phố Duy Tân, Phường Mỹ Đình 2, Quận Nam Từ Liêm, Thành phố Hà Nội, 10085, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 79193,
+        "estimated_distance": 8024.1,
+        "estimated_duration": 527.8,
+        "status": "cancelled",
+        "driver_id": 2,
+        "fare": 79193
     },
     {
-        "id": 15,
-        "pickup": "Y\u00ean s\u1edf",
-        "dropoff": "B\u00e1i \u0111\u00ednh",
-        "fare": 39,
-        "status": "Pending",
-        "driver_id": null
+        "id": 326,
+        "customer_id": 12,
+        "pickup": {
+            "lat": 20.5340294,
+            "lng": 105.98102482169935,
+            "address": "Tỉnh Hà Nam, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "van",
+        "estimated_price": 642788,
+        "estimated_distance": 62278.8,
+        "estimated_duration": 3101.9,
+        "status": "cancelled",
+        "driver_id": 13,
+        "fare": 642788
     },
     {
-        "id": 16,
-        "pickup": "Y\u00ean s\u1edf",
-        "dropoff": "B\u00e1i \u0111\u00ednh",
-        "fare": 32,
-        "status": "Pending",
-        "driver_id": null
+        "id": 327,
+        "customer_id": 12,
+        "pickup": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "van",
+        "estimated_price": 642788,
+        "estimated_distance": 62278.8,
+        "estimated_duration": 3101.9,
+        "status": "cancelled",
+        "driver_id": 13,
+        "fare": 642788
     },
     {
-        "id": 17,
-        "pickup": "H\u00e0 n\u1ed9i",
-        "dropoff": "H\u1ea3i ph\u00f2ng",
-        "fare": 21,
-        "status": "Pending",
-        "driver_id": null
+        "id": 328,
+        "pickup": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.5340294,
+            "lng": 105.98102482169935,
+            "address": "Tỉnh Hà Nam, Việt Nam"
+        },
+        "vehicle_type": "van",
+        "estimated_price": 642788,
+        "estimated_distance": 62278.8,
+        "estimated_duration": 3101.9,
+        "status": "cancelled",
+        "driver_id": 13,
+        "fare": 642788
     },
     {
-        "id": 18,
-        "pickup": "H\u00e0 n\u1ed9i",
-        "dropoff": "H\u1ea3i ph\u00f2ng",
-        "fare": 38,
-        "status": "Pending",
-        "driver_id": null
+        "id": 329,
+        "pickup": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "bike",
+        "estimated_price": 414251,
+        "estimated_distance": 101562.7,
+        "estimated_duration": 4840.1,
+        "status": "cancelled",
+        "driver_id": 1,
+        "fare": 414251
     },
     {
-        "id": 19,
-        "pickup": "H\u00e0 N\u1ed9i",
-        "dropoff": "H\u1ea3i ph\u00f2ng",
-        "fare": 33,
-        "status": "Pending",
-        "driver_id": null
+        "id": 330,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "bike",
+        "estimated_price": 432584,
+        "estimated_distance": 106146,
+        "estimated_duration": 4779,
+        "status": "cancelled",
+        "driver_id": 1,
+        "fare": 432584
     },
     {
-        "id": 20,
-        "pickup": "H\u00e0 N\u1ed9i",
-        "dropoff": "H\u1ea3i ph\u00f2ng",
-        "fare": 30,
-        "status": "Pending",
-        "driver_id": null
+        "id": 331,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": null,
+        "estimated_distance": null,
+        "estimated_duration": null,
+        "status": "cancelled",
+        "driver_id": 12,
+        "fare": null
     },
     {
-        "id": 21,
-        "pickup": "H\u00e0 N\u1ed9i",
-        "dropoff": "H\u1ea3i ph\u00f2ng",
-        "fare": 44,
-        "status": "Pending",
-        "driver_id": null
+        "id": 332,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": null,
+        "estimated_distance": null,
+        "estimated_duration": null,
+        "status": "completed",
+        "driver_id": 12,
+        "fare": null
     },
     {
-        "id": 22,
-        "pickup": "H\u00e0 N\u1ed9i",
-        "dropoff": "H\u1ea3i ph\u00f2ng",
-        "fare": 41,
-        "status": "Pending",
-        "driver_id": null
+        "id": 333,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 864168,
+        "estimated_distance": 106146,
+        "estimated_duration": 4779,
+        "status": "cancelled",
+        "driver_id": 2,
+        "fare": 864168
     },
     {
-        "id": 23,
-        "pickup": "H\u00e0 N\u1ed9i",
-        "dropoff": "H\u1ea3i Ph\u00f2ng",
-        "fare": 27,
-        "status": "Pending",
-        "driver_id": null
+        "id": 334,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 864168,
+        "estimated_distance": 106146,
+        "estimated_duration": 4779,
+        "status": "completed",
+        "driver_id": 2,
+        "fare": 864168
     },
     {
-        "id": 24,
-        "pickup": "H\u00e0 N\u1ed9i",
-        "dropoff": "H\u1ea3i Ph\u00f2ng",
-        "fare": 23,
-        "status": "Pending",
-        "driver_id": null
+        "id": 335,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 864168,
+        "estimated_distance": 106146,
+        "estimated_duration": 4779,
+        "status": "cancelled",
+        "driver_id": 8,
+        "fare": 864168
     },
     {
-        "id": 25,
-        "pickup": "H\u00e0 N\u1ed9i",
-        "dropoff": "H\u1ea3i Ph\u00f2ng",
-        "fare": 26,
-        "status": "Pending",
-        "driver_id": null
+        "id": 336,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 864168,
+        "estimated_distance": 106146,
+        "estimated_duration": 4779,
+        "status": "cancelled",
+        "driver_id": 8,
+        "fare": 864168
     },
     {
-        "id": 26,
-        "pickup": "H\u00e0 N\u1ed9i",
-        "dropoff": "H\u1ea3i Ph\u00f2ng",
-        "fare": 39,
-        "status": "Pending",
-        "driver_id": null
+        "id": 337,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 864168,
+        "estimated_distance": 106146,
+        "estimated_duration": 4779,
+        "status": "cancelled",
+        "driver_id": 8,
+        "fare": 864168
     },
     {
-        "id": 27,
-        "pickup": "H\u00e0 N\u1ed9i",
-        "dropoff": "H\u1ea3i Ph\u00f2ng",
-        "fare": 31,
-        "status": "Pending",
-        "driver_id": null
+        "id": 338,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 864168,
+        "estimated_distance": 106146,
+        "estimated_duration": 4779,
+        "status": "completed",
+        "driver_id": 8,
+        "fare": 864168
     },
     {
-        "id": 28,
-        "pickup": "H\u00e0 N\u1ed9i",
-        "dropoff": "H\u1ea3i ph\u00f2ng",
-        "fare": 28,
-        "status": "Pending",
-        "driver_id": null
+        "id": 339,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 864168,
+        "estimated_distance": 106146,
+        "estimated_duration": 4779,
+        "status": "completed",
+        "driver_id": 5,
+        "fare": 864168
     },
     {
-        "id": 29,
-        "pickup": "Ng\u00f5 286 Nguy\u1ec5n Xi\u1ec3n, X\u00e3 T\u00e2n Tri\u1ec1u, Huy\u1ec7n Thanh Tr\u00ec, H\u00e0 N\u1ed9i, 10135, Vi\u1ec7t Nam",
-        "dropoff": "B\u1ebfn xe Gi\u00e1p B\u00e1t, \u0110\u01b0\u1eddng Gi\u1ea3i Ph\u00f3ng, Ph\u01b0\u1eddng Gi\u00e1p B\u00e1t, Qu\u1eadn Ho\u00e0ng Mai, H\u00e0 N\u1ed9i, 11617, Vi\u1ec7t Nam",
-        "fare": 48,
-        "status": "Pending",
-        "driver_id": null
+        "id": 340,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 864168,
+        "estimated_distance": 106146,
+        "estimated_duration": 4779,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 864168
     },
     {
-        "id": 30,
-        "pickup": "Ng\u00f5 286 Nguy\u1ec5n Xi\u1ec3n, Eco Green City, X\u00e3 T\u00e2n Tri\u1ec1u, Huy\u1ec7n Thanh Tr\u00ec, H\u00e0 N\u1ed9i, 10135, Vi\u1ec7t Nam",
-        "dropoff": "B\u1ebfn xe Gi\u00e1p B\u00e1t, \u0110\u01b0\u1eddng Gi\u1ea3i Ph\u00f3ng, Ph\u01b0\u1eddng Gi\u00e1p B\u00e1t, Qu\u1eadn Ho\u00e0ng Mai, H\u00e0 N\u1ed9i, 11617, Vi\u1ec7t Nam",
-        "fare": 26,
-        "status": "Pending",
-        "driver_id": null
+        "id": 341,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 864168,
+        "estimated_distance": 106146,
+        "estimated_duration": 4779,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 864168
+    },
+    {
+        "id": 350,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "bike",
+        "estimated_price": 432584,
+        "estimated_distance": 106146,
+        "estimated_duration": 4779,
+        "status": "cancelled",
+        "driver_id": 1,
+        "fare": 432584
+    },
+    {
+        "id": 351,
+        "pickup": {
+            "lat": 20.983738884326424,
+            "lng": 105.80767993981335,
+            "address": "Ngõ 286 Nguyễn Xiển, Eco Green City, Xã Tân Triều, Huyện Thanh Trì, Thành phố Hà Nội, 10135, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.898119249232284,
+            "lng": 106.65405891535282,
+            "address": "ngõ, Đông, Phường Hoàng Lâm, Thành phố Thủy Nguyên, Thành phố Hải Phòng, 04340, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 930676,
+        "estimated_distance": 114459.5,
+        "estimated_duration": 5092.7,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 930676
+    },
+    {
+        "id": 356,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 864168,
+        "estimated_distance": 106146,
+        "estimated_duration": 4779,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 864168
+    },
+    {
+        "id": 357,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 358,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 359,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 360,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": null,
+        "estimated_distance": null,
+        "estimated_duration": null,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": null
+    },
+    {
+        "id": 361,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 362,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 367,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 369,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 370,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": null,
+        "estimated_distance": null,
+        "estimated_duration": null,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": null
+    },
+    {
+        "id": 373,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 2,
+        "fare": 22554
+    },
+    {
+        "id": 374,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 2,
+        "fare": 22554
+    },
+    {
+        "id": 375,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 2,
+        "fare": 22554
+    },
+    {
+        "id": 376,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "completed",
+        "driver_id": 2,
+        "fare": 22554
+    },
+    {
+        "id": 377,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "completed",
+        "driver_id": 2,
+        "fare": 22554
+    },
+    {
+        "id": 379,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 380,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 384,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 385,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "completed",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 386,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 387,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 388,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 389,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 390,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 22554
+    },
+    {
+        "id": 391,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 864168,
+        "estimated_distance": 106146,
+        "estimated_duration": 4779,
+        "status": "cancelled",
+        "driver_id": 9,
+        "fare": 864168
+    },
+    {
+        "id": 392,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.5340294,
+            "lng": 105.98102482169935,
+            "address": "Tỉnh Hà Nam, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 522226,
+        "estimated_distance": 63403.3,
+        "estimated_duration": 3162.3,
+        "status": "completed",
+        "driver_id": 9,
+        "fare": 522226
+    },
+    {
+        "id": 393,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.858864,
+            "lng": 106.6749591,
+            "address": "Thành phố Hải Phòng, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": null,
+        "estimated_distance": null,
+        "estimated_duration": null,
+        "status": "cancelled",
+        "driver_id": 2,
+        "fare": null
+    },
+    {
+        "id": 394,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.5340294,
+            "lng": 105.98102482169935,
+            "address": "Tỉnh Hà Nam, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 522226,
+        "estimated_distance": 63403.3,
+        "estimated_duration": 3162.3,
+        "status": "completed",
+        "driver_id": 2,
+        "fare": 522226
+    },
+    {
+        "id": 395,
+        "pickup": {
+            "lat": 20.5340294,
+            "lng": 105.98102482169935,
+            "address": "Tỉnh Hà Nam, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": null,
+        "estimated_distance": null,
+        "estimated_duration": null,
+        "status": "completed",
+        "driver_id": 9,
+        "fare": null
+    },
+    {
+        "id": 396,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.5340294,
+            "lng": 105.98102482169935,
+            "address": "Tỉnh Hà Nam, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": null,
+        "estimated_distance": null,
+        "estimated_duration": null,
+        "status": "completed",
+        "driver_id": 8,
+        "fare": null
+    },
+    {
+        "id": 397,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 20.5340294,
+            "lng": 105.98102482169935,
+            "address": "Tỉnh Hà Nam, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": null,
+        "estimated_distance": null,
+        "estimated_duration": null,
+        "status": "completed",
+        "driver_id": 5,
+        "fare": null
+    },
+    {
+        "id": 398,
+        "pickup": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.02883125,
+            "lng": 105.85253566666667,
+            "address": "Hồ Hoàn Kiếm, Quận Hoàn Kiếm, Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 22554,
+        "estimated_distance": 944.2,
+        "estimated_duration": 88.9,
+        "status": "completed",
+        "driver_id": 2,
+        "fare": 22554
+    },
+    {
+        "id": 399,
+        "pickup": {
+            "lat": 20.5340294,
+            "lng": 105.98102482169935,
+            "address": "Tỉnh Hà Nam, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "car",
+        "estimated_price": 513230,
+        "estimated_distance": 62278.8,
+        "estimated_duration": 3101.9,
+        "status": "ongoing",
+        "driver_id": 9,
+        "fare": 513230
+    },
+    {
+        "id": 400,
+        "pickup": {
+            "lat": 20.5340294,
+            "lng": 105.98102482169935,
+            "address": "Tỉnh Hà Nam, Việt Nam"
+        },
+        "dropoff": {
+            "lat": 21.0283334,
+            "lng": 105.854041,
+            "address": "Thành phố Hà Nội, Việt Nam"
+        },
+        "vehicle_type": "bike",
+        "estimated_price": null,
+        "estimated_distance": null,
+        "estimated_duration": null,
+        "status": "completed",
+        "driver_id": 11,
+        "fare": null
     }
 ]

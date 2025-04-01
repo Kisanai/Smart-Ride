@@ -1,20 +1,225 @@
-[
-    {
-        "id": 6,
-        "name": "Cuong Anh Luong",
-        "phone": "honda",
-        "email": "0398994564",
-        "password": "tentoiday2003@gmail.com",
-        "vehicle_info": "1",
-        "available": false
-    },
-    {
-        "id": 7,
-        "name": "Cuong Anh Luong",
-        "phone": "0398994564",
-        "email": "tentoiday2003@gmail.com",
-        "password": "1",
-        "vehicle_info": "honda",
-        "available": false
-    }
-]
+{
+    "drivers": [
+        {
+            "id": 1,
+            "name": "Nguyễn Văn An",
+            "phone": "1",
+            "email": "an.nguyen@example.com",
+            "vehicle_type": "bike",
+            "vehicle_info": "Honda Wave RSX - 29B1-12345",
+            "rating": 4.8,
+            "total_rides": 150,
+            "status": "available",
+            "available": true,
+            "current_location": {
+                "lat": 21.028511,
+                "lng": 105.854198
+            },
+            "password": "1"
+        },
+        {
+            "id": 2,
+            "name": "Trần Thị Bình",
+            "phone": "0912345678",
+            "email": "binh.tran@example.com",
+            "vehicle_type": "car",
+            "vehicle_info": "Toyota Vios - 30A-12345",
+            "rating": 4.9,
+            "total_rides": 320,
+            "status": "available",
+            "available": true,
+            "current_location": {
+                "lat": 21.027891,
+                "lng": 105.853217
+            },
+            "password": "1"
+        },
+        {
+            "id": 3,
+            "name": "Lê Văn Cường",
+            "phone": "0923456789",
+            "email": "cuong.le@example.com",
+            "vehicle_type": "van",
+            "vehicle_info": "Ford Transit - 29B-54321",
+            "rating": 4.7,
+            "total_rides": 280,
+            "status": "available",
+            "available": true,
+            "current_location": {
+                "lat": 21.026789,
+                "lng": 105.855432
+            },
+            "password": "1"
+        },
+        {
+            "id": 4,
+            "name": "Phạm Thị Dung",
+            "phone": "0934567890",
+            "email": "dung.pham@example.com",
+            "vehicle_type": "bike",
+            "vehicle_info": "Yamaha Sirius - 30A-54321",
+            "rating": 4.6,
+            "total_rides": 180,
+            "status": "available",
+            "available": true,
+            "current_location": {
+                "lat": 21.029876,
+                "lng": 105.852345
+            },
+            "password": "1"
+        },
+        {
+            "id": 5,
+            "name": "Hoàng Văn Em",
+            "phone": "0945678901",
+            "email": "em.hoang@example.com",
+            "vehicle_type": "car",
+            "vehicle_info": "Hyundai Accent - 29B-98765",
+            "rating": 4.8,
+            "total_rides": 250,
+            "status": "available",
+            "available": true,
+            "current_location": {
+                "lat": 21.027654,
+                "lng": 105.856789
+            },
+            "password": "1"
+        },
+        {
+            "id": 6,
+            "name": "Đỗ Thị Phương",
+            "phone": "0956789012",
+            "email": "phuong.do@example.com",
+            "vehicle_type": "van",
+            "vehicle_info": "Toyota Hiace - 30A-98765",
+            "rating": 4.9,
+            "total_rides": 300,
+            "status": "available",
+            "available": true,
+            "current_location": {
+                "lat": 21.028123,
+                "lng": 105.853456
+            },
+            "password": "1"
+        },
+        {
+            "id": 7,
+            "name": "Vũ Văn Giang",
+            "phone": "0967890123",
+            "email": "giang.vu@example.com",
+            "vehicle_type": "bike",
+            "vehicle_info": "Honda Air Blade - 29B-24680",
+            "rating": 4.7,
+            "total_rides": 200,
+            "status": "available",
+            "available": true,
+            "current_location": {
+                "lat": 21.026543,
+                "lng": 105.854567
+            },
+            "password": "1"
+        },
+        {
+            "id": 8,
+            "name": "Ngô Thị Hương",
+            "phone": "0978901234",
+            "email": "huong.ngo@example.com",
+            "vehicle_type": "car",
+            "vehicle_info": "Kia Morning - 30A-13579",
+            "rating": 4.8,
+            "total_rides": 270,
+            "status": "available",
+            "available": true,
+            "current_location": {
+                "lat": 21.028765,
+                "lng": 105.855678
+            },
+            "password": "1"
+        },
+        {
+            "id": 9,
+            "name": "Đặng Văn Inh",
+            "phone": "0989012345",
+            "email": "inh.dang@example.com",
+            "vehicle_type": "car",
+            "vehicle_info": "Honda City - 29B-24681",
+            "rating": 4.9,
+            "total_rides": 290,
+            "status": "busy",
+            "available": false,
+            "current_location": {
+                "lat": 21.027234,
+                "lng": 105.856789
+            },
+            "password": "1"
+        },
+        {
+            "id": 10,
+            "name": "Bùi Thị Kim",
+            "phone": "0990123456",
+            "email": "kim.bui@example.com",
+            "vehicle_type": "van",
+            "vehicle_info": "Ford Transit - 30A-97531",
+            "rating": 4.8,
+            "total_rides": 260,
+            "status": "available",
+            "available": true,
+            "current_location": {
+                "lat": 21.028987,
+                "lng": 105.853234
+            },
+            "password": "1"
+        },
+        {
+            "id": 11,
+            "name": "Trần Văn Bình",
+            "phone": "0912345678",
+            "email": "binh.tran@example.com",
+            "vehicle_type": "bike",
+            "vehicle_info": "Honda Air Blade - 29B2-56789",
+            "rating": 4.7,
+            "total_rides": 180,
+            "status": "available",
+            "available": true,
+            "current_location": {
+                "lat": 21.025678,
+                "lng": 105.851234
+            },
+            "password": "1"
+        },
+        {
+            "id": 12,
+            "name": "Lê Thị Hoa",
+            "phone": "0923456789",
+            "email": "hoa.le@example.com",
+            "vehicle_type": "car",
+            "vehicle_info": "Toyota Vios - 30A-56789",
+            "rating": 4.9,
+            "total_rides": 250,
+            "status": "busy",
+            "available": false,
+            "current_location": {
+                "lat": 21.02789,
+                "lng": 105.853456
+            },
+            "password": "1"
+        },
+        {
+            "id": 13,
+            "name": "Phạm Văn Dũng",
+            "phone": "0934567890",
+            "email": "dung.pham@example.com",
+            "vehicle_type": "van",
+            "vehicle_info": "Ford Transit - 29B3-98765",
+            "rating": 4.8,
+            "total_rides": 200,
+            "status": "available",
+            "available": true,
+            "current_location": {
+                "lat": 21.026543,
+                "lng": 105.855678
+            },
+            "password": "1"
+        }
+    ]
+}

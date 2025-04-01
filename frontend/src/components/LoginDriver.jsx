@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-hot-toast";
 
-function LoginCustomer() {
+function LoginDriver() {
   const [formData, setFormData] = useState({
     identifier: "",
     password: "",
@@ -18,19 +19,20 @@ function LoginCustomer() {
     try {
       const res = await axios.post("/api/login/driver", formData);
 
+      localStorage.setItem("driver_id", res.data.id);
       localStorage.setItem("token", res.data.token);
-      alert("🎉 Đăng nhập thành công!");
+      toast.success("🎉 Đăng nhập thành công!");
 
       navigate("/dashboard");
     } catch (err) {
       console.error(err);
-      alert("❌ Đăng nhập thất bại!");
+      toast.error("❌ Đăng nhập thất bại!");
     }
   };
 
   return (
     <div>
-      <h2>🔐 Đăng nhập Khách hàng</h2>
+      <h2>🔐 Đăng nhập Tài xế</h2>
       <form onSubmit={handleSubmit}>
         <input
           name="identifier"
@@ -55,4 +57,4 @@ function LoginCustomer() {
   );
 }
 
-export default LoginCustomer;
+export default LoginDriver;
